@@ -1,0 +1,104 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    /*width: 100%;
+    height: 100vh;*/
+    background-image: /*linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))*/
+    url("pexels-houzlook-com-3356416.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    margin: auto;   
+    position: relative;
+    
+}
+.logo{
+    max-width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+    float: left;
+}
+ul{
+    
+    text-align: center;
+    padding-left: 60%;
+
+}
+li{
+    display: inline;
+    
+}
+li a{
+    font-size: 2.rem;
+    text-decoration: none;
+    margin-right: 0px;
+    
+    float: left;
+    color: white;
+   padding-top: 20px;
+    margin-top: 10px ;
+    margin-left: 20px;
+    text-align: center;
+    margin-right: 0px;
+   
+
+}
+a:hover{
+    border-bottom: 2px solid yellow;
+}
+.class{
+    width: 100%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%,50%);
+    left: 50%;
+    
+    
+}
+.class h1{
+    font-size: 70px;
+    margin-top: 80px;
+    line-height: 25px;
+}
+.class p {
+    margin: 20px auto;
+    font-weight: 100;
+}
+button{
+    width:200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid yellow;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: yellow;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+   width: 100%;
+}
+
+button:hover{
+    border: 100%;
+}
